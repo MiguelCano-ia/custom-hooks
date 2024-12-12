@@ -1,6 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { Todo } from "../components/TodoList";
-import { todoReducer } from "../todoReducer";
+import { todoReducer } from "./todoReducer";
 
 
 const initialState: Todo[] = [
